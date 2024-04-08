@@ -17,7 +17,7 @@
             {
                 font-family: Inconsolata, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Inconsolata;
                 background-color: rgb(241, 239, 209);
-                color: rgb(2, 104, 41);
+                color: #026829;
                 line-height: 1.5;
             }
             
@@ -32,15 +32,26 @@
             }
             h1,h2
             {
-                color: #661d1d;
-                font-weight: 900;
+
+          /** TEXT GRADIENT */ 
+                color: #3f6aae;
+                background-image: -webkit-linear-gradient(45deg, #3f6aae 23%, #f0aba7 45%, #840b59 56%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                text-fill-color: transparent;
+                -webkit-text-fill-color: transparent;
+        
             }
 
             section 
             {
+                align-text: center;
                 margin: 20px auto;
                 padding: 20px;
                 background-color: rgb(201, 195, 114);
+                box-shadow: 0 2px 4px rgb(78, 93, 139);
+                border-radius: 10px;
+                max-width: 750px;
             }
 
             footer
@@ -119,7 +130,7 @@
                     <input type="number" id="Phone" name="Phone"> <br> <br>
                     <label for="message">Message</label> <br>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea> <br>
-                    <button type="submit">Submit</button> <br>
+                    <button type="submit"><img src="submit.ico" alt="submit.ico" width="20"> SUBMIT </button> <br>
                 </form>
         </section>
 
