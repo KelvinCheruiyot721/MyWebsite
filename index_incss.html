@@ -18,7 +18,7 @@
                 font-family: Inconsolata, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Inconsolata;
                 background-color: rgb(241, 239, 209);
                 color: #026829;
-                line-height: 1.75;
+                line-height: 1.5;
             }
             
             header{
@@ -38,14 +38,14 @@
                 background-image: -webkit-linear-gradient(45deg, #3f6aae 23%, #f0aba7 45%, #840b59 56%);
                 background-clip: text;
                 -webkit-background-clip: text;
-                text-fill-color: transparent;
+                /**text-fill-color: transparent;**/
                 -webkit-text-fill-color: transparent;
         
             }
 
             section 
             {
-                align-text: center;
+                text-align : center;
                 margin: 20px auto;
                 padding: 20px;
                 background-color: rgb(201, 195, 114);
@@ -57,6 +57,21 @@
             footer
             {
                 background: black;
+            }
+            a 
+            {
+                color: black ;
+                text-decoration: none;
+            }
+            a:hover
+            {
+                color:#eeff01;
+                text-decoration: underline ;
+            }
+
+            img 
+            {
+                border-radius: 50px;
             }
             
         </style>
@@ -92,7 +107,7 @@
 
             <section>
                 <h2> My Skills</h2>
-                <table align="left">
+                <table align="center">
                     <tr>
                         <td>
                             <ul style="text-align: left;"> 
