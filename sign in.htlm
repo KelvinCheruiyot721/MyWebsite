@@ -4,13 +4,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scal=1.0">
-<title> Document</title>
-<link rel="stylesheet" href=signinsytle.css">
+<title> Log In form</form></title>
+<link rel="stylesheet" href="signinsytle.css">
 </head>
 <body>
   <div class="container">
       <div class=card="card">
           <h3> Log In </h3>
+          
           <div class="inputBox">
-              <input 
+              <input type="text"required="required">
+              <span>Username</span>
+          </div>
+
+          <div class="inputBox">
+            <input type="text" required="required">
+            <span>Password</span>
+          </div> 
+          <button> Log In</button>   
 </body>
