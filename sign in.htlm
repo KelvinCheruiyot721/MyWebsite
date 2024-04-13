@@ -8,5 +8,9 @@
 <link rel="stylesheet" href=signinsytle.css">
 </head>
 <body>
-  
+  <div class="container">
+      <div class=card="card">
+          <h3> Log In </h3>
+          <div class="inputBox">
+              <input 
 </body>
